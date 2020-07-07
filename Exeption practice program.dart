@@ -2,7 +2,7 @@ import 'dart:io';
 
 int mustgreaterthanZero(int val){
 if(val <= 0) {
-  throw Exception('Value must be greater than zero');
+  throw Exception('Value must be greater than zero ');
   }
   return val;
 }
